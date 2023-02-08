@@ -1,0 +1,68 @@
+header{
+    background-color: $blanco;
+    width: 100vw;
+    height: 100px;
+}
+
+.navbar-nav {
+    font-weight: bold !important;
+    .nav-link:hover{
+        color: $azul !important;
+        font-weight: bold !important;
+        border-bottom: 2px solid $azul !important;
+    }
+}
+.active{
+    color: $verde !important;
+    font-weight: bold !important;
+    border-bottom: 2px solid $azul !important;
+}
+.Subheader{
+    height: 80px;
+    border-top: 1px solid $gris;
+    background: $blanco;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 10%, rgba(237,254,237,1) 49%, rgba(74,152,72,1) 100%);
+}
+.Subheader__titulo{
+    margin-top: 0;
+    padding-top: 20px;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 15%;
+    color: $azul;
+}
+.Subheader__titulo__faq{
+    margin-top: 0;
+    padding-top: 20px;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 15%;
+    color: $azul;
+}
+.logo{
+    height: 6rem;
+    width: auto;
+    margin-top: 2px;
+    float: left;
+    margin-left: 0px;
+    z-index: 5;
+}
+.hero{
+    margin-bottom: 0px;
+}
+.herotxt1{
+    margin-bottom: 50px;
+    font-size: 3rem;
+}
+.herotxt2{
+    margin-bottom: 50px;
+}
+.rem4{
+    font-size: 4rem;
+}
+path{
+    stroke: none; 
+    fill: $azul;
+}

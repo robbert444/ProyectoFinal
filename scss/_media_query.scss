@@ -1,0 +1,118 @@
+@include media-breakpoint-down(md) {
+    .logo{
+        height: 4rem;
+        margin-top: 1rem;
+    }
+    .carousel{
+        .carousel-inner{
+            .carousel-item{
+                img {
+                    height: 140px;
+                    width: auto;
+                }
+                .carousel-caption{
+                    margin-bottom: -0.2rem;
+                    text-align: start;
+                    font-size: 0.8rem;
+                    h2{
+                        font-size: 0.8rem;
+                    }
+                    .btn{
+                        font-size: 0.7rem !important;
+                        margin-bottom: -7rem;
+                    }
+                    .rem4{
+                        font-size: 1rem;;
+                    }
+                }
+            }
+        }
+    }
+    .titulo{
+        font-size: 1.7rem;
+    }
+    .mb-5{
+        margin-bottom: 0.5rem !important;
+    }
+    .espacio{
+        .Invitacion__texto{
+            font-size: 1rem;
+        }
+        .btn{
+            font-size: 1rem !important;
+        }
+    }
+    
+    .Equipo__imagen__persona{
+        width: 150px;
+    }
+    .Subheader__titulo__faq{
+        font-size: 1.1rem !important;
+    }
+    .timeline-icon img{
+        width: 50px;
+    }
+    .brinco{
+        display: block;
+    }
+    
+}
+@include media-breakpoint-up(lg) { 
+
+    .logo{
+        margin-left: 0px;
+    }
+    .brinco{
+        display: none;
+    }
+}
+@include media-breakpoint-only(lg) {
+    .navbar-nav {
+        font-weight: normal !important;
+        .nav-link:hover{
+            font-weight: normal !important;
+            font-size: .7rem;
+        }
+    }
+    .active{
+        font-weight: normal !important;
+    }
+}
+
+@media screen and (max-width: 50em) {
+	.grid figure {
+		display: inline-block;
+		float: none;
+		margin: 10px auto;
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width:1200px){.main-timeline .timeline-icon:before{width:50px;right:-50px}
+.main-timeline .timeline:nth-child(even) .timeline-icon:before{right:auto;left:-50px}
+.main-timeline .timeline-content{margin-top:75px}
+}
+@media only screen and (max-width:990px){.main-timeline .timeline{margin:0 0 10px}
+.main-timeline .timeline-icon{left:25%}
+.main-timeline .timeline:nth-child(even) .timeline-icon{right:25%}
+.main-timeline .timeline-content{margin-top:115px}
+}
+@media only screen and (max-width:767px){.main-timeline{padding-top:50px}
+.main-timeline:before{left:80px;right:0;margin:0}
+.main-timeline .timeline{margin-bottom:70px}
+.main-timeline .timeline:before{top:0;left:83px;right:0;margin:0}
+.main-timeline .timeline-icon{width:60px;height:60px;line-height:40px;padding:5px;top:0;left:0}
+.main-timeline .timeline:nth-child(even) .timeline-icon{left:0;right:auto}
+.main-timeline .timeline-icon:before,.main-timeline .timeline:nth-child(even) .timeline-icon:before{width:25px;left:auto;right:-25px}
+.main-timeline .timeline-icon:after,.main-timeline .timeline:nth-child(even) .timeline-icon:after{width:25px;height:30px;top:44px;left:auto;right:-5px}
+.main-timeline .timeline-icon i{font-size:30px;line-height:45px}
+.main-timeline .timeline-content,.main-timeline .timeline:nth-child(even) .timeline-content{width:100%;margin-top:-15px;padding-left:130px;padding-right:5px}
+.main-timeline .timeline:nth-child(even) .timeline-content{float:right}
+.main-timeline .timeline-content:before,.main-timeline .timeline:nth-child(even) .timeline-content:before{width:50%;left:120px}
+.main-timeline .timeline:nth-child(even) .timeline-content:before{right:auto;transform:rotateY(0)}
+.main-timeline .timeline-content:after,.main-timeline .timeline:nth-child(even) .timeline-content:after{left:85px}
+}
+@media only screen and (max-width:479px){.main-timeline .timeline-content,.main-timeline .timeline:nth-child(2n) .timeline-content{padding-left:110px}
+.main-timeline .timeline-content:before,.main-timeline .timeline:nth-child(2n) .timeline-content:before{left:99px}
+.main-timeline .timeline-content:after,.main-timeline .timeline:nth-child(2n) .timeline-content:after{left:65px}
+}

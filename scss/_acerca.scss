@@ -1,0 +1,21 @@
+#Equipo{
+    background-color: $blanco;
+}
+.Equipo__imagen__persona{
+    width: 300px;
+}
+.Equipo__texto__persona{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: $azul;
+    margin-top: 25%;
+}
+.Equipo__texto__persona__cargo{
+    color: $gris;
+    font-size: 0.9rem;
+    margin-left: 2rem;
+}
+#Equipo path{
+    stroke: none; 
+    fill: $purple;
+}

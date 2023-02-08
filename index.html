@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Controla los gatos de tú tarjeta de crédito con nuestro servicio">
+    <meta name="keywords" content="Tarjeta de Crédito, gastos, control, finanzas personales, compra inteligente">
+    <meta name="author" content="Roberto Flores">
+    <title>Control de Gatos - Tarjeta de Crédito</title>
+    <link rel="icon" type="image/x-icon" href="assets/icons/logo_control_gastos-28.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+  </head>
+  <body>
+    <main class="container">
+        <header class="container">
+            <div class="row">
+                <div class="col-4">
+                    <figure class="justify-content-end">
+                        <img src="assets/img/logo_control_gastos-svg.svg" class="logo" style="z-index: 5;" alt="Control de Gastos Tarjeta de Crédito">
+                    </figure>
+                </div>
+                <div class="col-8">
+                    <nav class="navbar navbar-expand-xl bg-white mt-3" style="z-index: 2;">
+                        <div class="container-fluid">
+                        <a class="navbar-brand" href="#"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html" alt="Regresar al Inicio"><i class="bi bi-house-door azul"></i> Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="pages/acerca.html" alt="Acerca de nosotros"><i class="bi bi-info-square azul"></i> Acerca de TC Control</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="pages/precios.html" alt="Nuestros Precios"><i class="bi bi-cash-coin azul"></i> Precios</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="pages/preguntas.html" alt="Preguntas Frecuentes"><i class="bi bi-question-square azul"></i> Prerguntas Frecuentes</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="pages/contacto.html" alt="Contactanos"><i class="bi bi-envelope-at azul"></i> Contacto</a>
+                                </li>
+                            </ul>
+                        </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        
+        <section class="hero" id="hero">
+            <div id="carouselExampleFade" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/img/slide01.jpg" class="d-block w-100" alt="Manten el control de tu tarjeta de crédito">
+                    <div class="carousel-caption">
+                        <h2 class="text-start azul negras sombratxt animate__animated animate__heartBeat c"><span class="rem4">No pierdas el control</span><br>de tu tarjeta de crédito</h2>
+                        <p><a data-bs-toggle="modal" data-bs-target="#invitacionModal" class="btn btn-lg btn-primary text-uppercase negras animate__animated animate__jackInTheBox">Regístrate</a><br><span class="azul recuadro__amarillo">Prueba gratis por 100 días</span></p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/slide0002.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h2 class="text-end azul negras sombratxt mb-5 animate__animated animate__tada herotxt2">¡<span class="rem4">Comprar</span><br>nunca fue tan fácil!</h2>
+                        <p><a data-bs-toggle="modal" data-bs-target="#invitacionModal" class="btn btn-lg btn-primary text-uppercase negras animate__animated animate__bounceIn">Regístrate</a><br><span class="azul recuadro__amarillo">Prueba gratis por 100 días</span></p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/slide3_1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h2 class="text-end azul negras sombratxt mb-5 animate__animated animate__tada herotxt2">¡<span class="rem4">Compras inteligentes</span><br>reportes y balance de tus gastos!</h2>
+                        <p><a data-bs-toggle="modal" data-bs-target="#invitacionModal" class="btn btn-lg btn-primary text-uppercase negras animate__animated animate__bounceIn">Regístrate</a><br><span class="azul recuadro__amarillo">Prueba gratis por 100 días</span></p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+          <div class="row">
+            <div class="col">
+                <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-0.94,-6.45 C343.30,-20.39 502.44,-1.48 500.18,-0.48 L390.14,107.03 L-4.32,148.84 Z"></path></svg></div>
+              <p class="titulo">Beneficios</p>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-11 col-lg-3">
+                <div class="grid">
+                    <figure class="effect-chico">
+                        <img src="assets/img/secure.jpg" alt="img01"/>
+                        <figcaption>
+                            <h2>Seguridad <span>Total</span></h2>
+                            <p>No guardamos datos sencibles</p>
+                            
+                        </figcaption>			
+                    </figure>
+                </div>
+            </div>
+            <div class="col-11 col-lg-3">
+                <div class="grid">
+                    <figure class="effect-chico">
+                        <img src="assets/img/compatibilidad.jpg" alt="img01"/>
+                        <figcaption>
+                            <h2>Compatibiliad <span>Total</span></h2>
+                            <p>IOS y Android</p>
+                        </figcaption>			
+                    </figure>
+                </div>
+            </div>
+            <div class="col-11 col-lg-3">
+                <div class="grid">
+                    <figure class="effect-chico">
+                        <img src="assets/img/dinero_crece.jpg" alt="img01"/>
+                        <figcaption>
+                            <h2>Finanzas <span>Sanas</span></h2>
+                            <p>Mejora tu ahorro</p>
+                        </figcaption>			
+                    </figure>
+                </div>
+            </div>
+            <div class="col-11 col-lg-3">
+                <div class="grid">
+                    <figure class="effect-chico">
+                        <img src="assets/img/cancelar.jpg" alt="img01"/>
+                        <figcaption>
+                            <h2>Sin Plan <span>Forzoso</span></h2>
+                            <p>Puedes Cancelar en cualquier momento</p>
+                        </figcaption>			
+                    </figure>
+                </div>
+            </div>
+          </div>
+        </section>
+        <section id="funcionalidad">
+            <div class="row mt-5">
+                <div class="col">
+                    <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-0.94,-6.45 C343.30,-20.39 502.44,-1.48 500.18,-0.48 L390.14,107.03 L-4.32,148.84 Z"></path></svg></div>
+                  <p class="titulo">Funcionalidad</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="main-timeline bg-white shadow">
+                        <a href="#" class="timeline">
+                            <div class="timeline-icon"><img src="assets/img/funcionalidad1.png" width="200px" alt=""></div>
+                            <div class="timeline-content">
+                                <h3 class="title">Funciona en cualquier navagador web</h3>
+                                <p class="description">
+                                    No es una APP que tengas que instalar, somos una WebAPP que se ejecuta en el navegador, evitando el robo de tus contactos.
+                                </p>
+                            </div>
+                        </a>
+                        <a href="#" class="timeline">
+                            <div class="timeline-icon"><img src="assets/img/funcionalidad2.png" width="200px" alt=""></div>
+                            <div class="timeline-content">
+                                <h3 class="title">Reporteador</h3>
+                                <p class="description">
+                                    Contamos un reporteador que te infoma en cualquier momento las compras realizadas, el saldo y el monto a pagar en tu proximo corte de tu tarjeta de crédito.
+                                </p>
+                            </div>
+                        </a>
+                        <a href="#" class="timeline">
+                            <div class="timeline-icon"><img src="assets/img/funcionalidad3.png" width="200px" alt=""></div>
+                            <div class="timeline-content">
+                                <h3 class="title">Alertas</h3>
+                                <p class="description">
+                                    Nuestro sistema te notificara cuando el límite de pago sobre pase, esto es totalmente configurable a tu línea de crédito y flujo de efectivo.
+                                </p>
+                            </div>
+                        </a>
+                        <a href="#" class="timeline">
+                            <div class="timeline-icon"><img src="assets/img/funcionalidad4.png" width="200px" alt=""></div>
+                            <div class="timeline-content">
+                                <h3 class="title">Seguridad</h3>
+                                <p class="description">
+                                    Unicamente solicitamos los últimos 4 digitos de tu tarjeta de crédito, monto y refencia de tu compra. La información queda encripta y solo tu puedes acceder a ella.
+                                </p>
+                            </div>
+                        </a>
+                        <br><br><br>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="container">
+        <section class="espacio" id="Invitacion">
+          <div class="row">
+            <div class="col-12 col-lg-8">
+              <p class="me-3 Invitacion__texto text-center"> Conoce nuestro servicios durante <br class="brinco"><span class="Invitacion__gratis">100 días totalmente gratis</span></p>
+            </div>
+            <div class="col-12 col-lg-4 text-center">
+              <button type="button" class="btn btn-light btn-lg mt-2" data-bs-toggle="modal" data-bs-target="#invitacionModal">
+                Regístrate
+              </button>
+            </div>
+          </div>
+        </section>
+        <section id="Footer">
+          <div class="row">
+            <div class="col-6 mt-3">
+              <p class="text-center">Redes Sociales</p>
+              <figure>
+                <a href="https://twitter.com/leebu" target="_blank"><img class="Footer__redes__twitter" src="assets/img/twitter.png" alt="Twitter"></a>
+                <a href="https://www.youtube.com/watch?v=fa2N9OBK8v4" target="_blank"><img class="Footer__redes__youtube" src="assets/img/youtube.png" alt="Youtube"></a>
+                <a href="https://api.whatsapp.com/send/?phone=5491130340087" target="_blank"><img class="Footer__redes__whatapp" src="assets/img/whatsapp.png" alt="Whatsapp"></a>
+            </figure>
+    
+            </div>
+            <div class="col-6">
+              <div class="Footer__textos mt-3">
+                <ul>
+                    <li><a href="#">Términos de servicio</a></li>
+                    <li>&copy; Roberto Flores 2023</li>
+                </ul>
+               </div>
+            </div>
+          </div>
+        </section>  
+    </footer>
+
+    <div class="modal fade" id="invitacionModal" tabindex="-1" aria-labelledby="invitacionModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="invitacionModalLabel">Regístrate</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col">
+                <p class="text-center">Te enviaremos un email de confirmación y al confirmar podrás disfrutar 100 días de uso gratis.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <input type="text" class="form-control" name="nombre" placeholder="Nombre" autofocus autofocus="autofocus" required>
+              </div>
+              <div class="col-6">
+                <input type="text" class="form-control" name="apellidos" placeholder="Apellidos" required>
+              </div>
+            </div>
+            <div class="row mt-3 mb-3">
+              <div class="col-6">
+                <input type="email" class="form-control" name="email" placeholder="E-mail" required>
+              </div>
+              <div class="col-6">
+                <input type="password" class="form-control" name="password" placeholder="Contraseña" required>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-success">Enviar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
